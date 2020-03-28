@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "652579020225",
+    "firebase_url": "https://test-hello-jni-firebase-99550.firebaseio.com",
+    "project_id": "test-hello-jni-firebase-99550",
+    "storage_bucket": "test-hello-jni-firebase-99550.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652579020225:android:442657f62654d5db67e340",
+        "android_client_info": {
+          "package_name": "com.example.hellojni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652579020225-dn2dvc1l34i3uk6uc3pfei7vvulm3n7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQp2Ol8aS_LeI_3TzW9LvJ-n6pO-bBBiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652579020225-dn2dvc1l34i3uk6uc3pfei7vvulm3n7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
