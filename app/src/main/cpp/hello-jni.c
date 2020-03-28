@@ -16,6 +16,7 @@
  */
 #include <string.h>
 #include <jni.h>
+#include <signal.h>
 
 /* This is a trivial JNI example where we use a native method
  * to return a new VM String. See the corresponding Java source
@@ -58,6 +59,6 @@ Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env,
 #else
 #define ABI "unknown"
 #endif
-
+//    raise(SIGSEGV); // native crash
     return (*env)->NewStringUTF(env, "Hello from JNI !  Compiled with ABI " ABI ".");
 }
